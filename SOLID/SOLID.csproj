@@ -56,6 +56,13 @@
     <Compile Include="3-LiskovSubstiton\GoodExample\Concrete\DoganSLX.cs" />
     <Compile Include="3-LiskovSubstiton\GoodExample\Concrete\Ferrari.cs" />
     <Compile Include="3-LiskovSubstiton\GoodExample\Interface\IAirConditionable.cs" />
+    <Compile Include="4-LiskovSubstition\BadExample\Concrete\Chicken.cs" />
+    <Compile Include="4-LiskovSubstition\BadExample\Concrete\Hawk.cs" />
+    <Compile Include="4-LiskovSubstition\BadExample\Interfaces\IBird.cs" />
+    <Compile Include="4-LiskovSubstition\GoodExample\Concrete\Chicken.cs" />
+    <Compile Include="4-LiskovSubstition\GoodExample\Concrete\Hawk.cs" />
+    <Compile Include="4-LiskovSubstition\GoodExample\Interfaces\IFlightBird.cs" />
+    <Compile Include="4-LiskovSubstition\GoodExample\Interfaces\IFligtlessBird.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +73,7 @@
     <Content Include="1_SingleReposibility\Readme.txt" />
     <Content Include="2_OpenAndClose\Readme.txt" />
     <Content Include="3-LiskovSubstiton\Readme.txt" />
+    <Content Include="4-LiskovSubstition\Readme.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
