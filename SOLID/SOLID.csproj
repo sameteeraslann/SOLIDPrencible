@@ -51,6 +51,11 @@
     <Compile Include="2_OpenAndClose\GoodExample\Concrete\Sahlep.cs" />
     <Compile Include="2_OpenAndClose\GoodExample\Concrete\Tea.cs" />
     <Compile Include="2_OpenAndClose\GoodExample\Concrete\Water.cs" />
+    <Compile Include="3-LiskovSubstiton\BadExample\Car.cs" />
+    <Compile Include="3-LiskovSubstiton\GoodExample\Abstract\Car.cs" />
+    <Compile Include="3-LiskovSubstiton\GoodExample\Concrete\DoganSLX.cs" />
+    <Compile Include="3-LiskovSubstiton\GoodExample\Concrete\Ferrari.cs" />
+    <Compile Include="3-LiskovSubstiton\GoodExample\Interface\IAirConditionable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -60,6 +65,7 @@
   <ItemGroup>
     <Content Include="1_SingleReposibility\Readme.txt" />
     <Content Include="2_OpenAndClose\Readme.txt" />
+    <Content Include="3-LiskovSubstiton\Readme.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
